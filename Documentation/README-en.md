@@ -2,6 +2,7 @@
 
 The Network Query Tool provides several features that make it a handy tool for network diagnostics:
 
+🕵️ NS2/Network Scanning
 - **WHOIS Lookup:** Quickly find details about domain registrations.
 - **DNS Lookup:** Check DNS records for any domain.
 - **Forward DNS Lookup:** Find the domain name associated with an IP.

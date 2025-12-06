@@ -12,6 +12,11 @@ The Network Query Tool provides several features that make it a handy tool for n
 - **Browser:** Quickly view your browser detials.
 - **Device:** View your Internet capable device details.
 
+🛡️ NS1/Network Security
+- **WHOIS Privacy:** Keep personal contact info off public records.
+- **Web Proxy:** Mask your IP and location while browsing.
+- **Personal VPN:** Secure your internet connection with high-speed VPN encryption.
+
 🕵️ NS2/Network Scanning
 - **WHOIS Lookup:** Quickly find details about domain registrations.
 - **DNS Lookup:** Check DNS records for any domain.

@@ -13,8 +13,8 @@
 User-agent: ia_archiver
 User-agent: archive.org_bot
 User-agent: Applebot-Extended
+Allow: 
 Disallow: /.well-known/security.txt
-Disallow: 
 
 # Search Engine Indexers
 User-agent: Bingbot
@@ -27,7 +27,7 @@ User-agent: SeznamBot
 User-agent: Sogou Spider
 User-agent: SwisscowsBot
 User-agent: Yandex
-Disallow: 
+Allow: 
 Disallow: /.well-known/security.txt
 
 # Banned

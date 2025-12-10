@@ -14,3 +14,5 @@ Perform WHOIS, DNS, IP, and network diagnostics.
 
 - [Changelog](CHANGELOG.md)
 - [License](LICENSE)
+
+Official Network Query Tool — available since 1990 at [ns1ns2.com](https://www.ns1ns2.com).

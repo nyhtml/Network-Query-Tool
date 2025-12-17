@@ -17,6 +17,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [1.3.0]
 ### UX Update
 - Improve the `Network Query Tool` responsiveness on mobile devices.
+  - Links and tap targets are sufficiently large and touch-friendly
+  - Page content fits device width
+  - Text on the page is readable
 
 ## [1.2.0]
 ### Security Update

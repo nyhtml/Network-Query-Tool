@@ -13,7 +13,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
   - Optimized output buffering to ensure headers are sent efficiently, minimizing latency during DNS and WHOIS queries.
 
 ### UX Update
-- Added "🌙 Mode" and "☀️ Mode" theme for the `Network Query Tool` for desktop and mobile devices.
+- Added "🌙 Mode" and "☀️ Mode" in the theme for the `Network Query Tool` for desktop and mobile devices.
 
 ## [1.5.0]
 ### Security Update

@@ -6,6 +6,15 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.6.0]
+### Performance Improvements
+- Allow the `Network Query Tool` website to reduce bandwidth usage and improve page load times.
+  - Implemented early gzip compression support, to reduce bandwidth usage and improve page load times across desktop and mobile devices.
+  - Optimized output buffering to ensure headers are sent efficiently, minimizing latency during DNS and WHOIS queries.
+
+### UX Update
+- Added "🌙 Mode" and "☀️ Mode" theme for the `Network Query Tool` for desktop and mobile devices.
+
 ## [1.5.0]
 ### Security Update
 - Allowed the `Network Query Tool` website from being accessed by specific user-agents. 

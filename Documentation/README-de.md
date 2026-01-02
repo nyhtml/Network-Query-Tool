@@ -55,4 +55,4 @@ Das Network Query Tool bietet zahlreiche Funktionen, die es zu einem praktischen
 - **MyIP:** Öffentliche IP‑Adresse anzeigen.  
 - **MyIP (Info):** Informationen zu einer öffentlichen IP‑Adresse abrufen.
 
-* [Deutsch (de)](README-de.md)
+[Deutsch (de)](README-de.md)

@@ -54,3 +54,5 @@ Le **Network Query Tool** fournit plusieurs fonctionnalités qui en font un outi
 - **Vérification d’email :** Confirmez si une adresse email est valide.
 - **MonIP :** Trouvez rapidement votre adresse IP publique actuelle.
 - **MonIP :** Trouvez rapidement des informations sur une adresse IP publique.
+
+[Français (fr)](README-fr.md)

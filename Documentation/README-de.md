@@ -54,3 +54,5 @@ Das Network Query Tool bietet zahlreiche Funktionen, die es zu einem praktischen
 - **E‑Mail‑Check:** Validität einer E‑Mail‑Adresse prüfen.  
 - **MyIP:** Öffentliche IP‑Adresse anzeigen.  
 - **MyIP (Info):** Informationen zu einer öffentlichen IP‑Adresse abrufen.
+
+* [Deutsch (de)](Documentation/README-de.md)

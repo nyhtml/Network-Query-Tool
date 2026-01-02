@@ -54,3 +54,5 @@ The Network Query Tool provides several features that make it a handy tool for n
 - **Email Check:** Verify if an email address is valid.
 - **MyIP:** Quickly find your current public IP address.
 - **MyIP:** Quickly find info on a public IP address.
+
+[English (en-us)](README-en.md)

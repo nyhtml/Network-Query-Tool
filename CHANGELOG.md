@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.8.0]
+### Bug Fixes
+- Allow the `Network Query Tool` website to pass HTML5 validation while reducing bandwidth usage and page load times.
+  - Moved the early gzip compression support from all pages to the .htaccess file.
+
 ## [1.7.0]
 ### UX Update
 - Added "🌙 Mode" and "☀️ Mode" in the theme for the `Network Query Tool` website for desktop and mobile devices.

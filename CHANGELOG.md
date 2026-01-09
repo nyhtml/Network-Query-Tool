@@ -6,6 +6,32 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+📦 Feature Updates
+- New functionality added to the tool (e.g., introducing a new lookup type like DNSSEC validation or adding IPv6 support).
+- Expands what the software can do beyond its original scope.
+
+🛠️ Bug Fixes
+- Corrections for errors, crashes, or misbehaviors (e.g., fixing a traceroute timeout issue or resolving incorrect WHOIS parsing).
+- Usually small but critical for stability.
+
+⚡ Performance Improvements
+- Optimizations to make the tool faster or more efficient (e.g., reducing query latency, caching DNS results).
+- Can also include resource usage improvements for mobile devices.
+
+🔄 Compatibility Updates
+- Ensuring the tool works with new browsers, operating systems, or protocols (e.g., Chrome/Edge PWA support, TLS 1.3 compatibility).
+- Keeps the tool usable as environments evolve.
+
+📚 Documentation Updates
+- Changes to README files, help guides, or inline tooltips.
+- Often overlooked, but critical for user comfort and onboarding.
+
+🧪 Experimental / Beta Updates
+- Features marked as “pre-release” or “beta” for testing (e.g., experimental port scanning modes).
+- Allows feedback before full rollout.
+
+---
+
 ## [1.8.0]
 ### Bug Fixes
 - Allow the `Network Query Tool` website to pass HTML5 validation while reducing bandwidth usage and page load times.

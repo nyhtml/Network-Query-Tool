@@ -1,7 +1,7 @@
 # Network Query Tool
 Perform WHOIS, DNS, IP, and network diagnostics.
 
-Official Network Query Tool — available since 1990 at [ns1ns2.com](https://www.ns1ns2.com).
+Official Network Query Tool — available since 1990 at [ns1ns2.com](https://www.ns1ns2.com/tools/).
 
 ## 🌐 Languages
 * [English (en-us)](Documentation/README-en.md)

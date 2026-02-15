@@ -32,6 +32,26 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [2.1.0]
+### Performance Improvements
+- Allow the `Network Query Tool` website to have long‑term browser caching support across desktop and mobile devices.
+  - Enhanced installability, theme handling, and overall responsiveness for modern browsers.
+  - Refined caching behavior to provide faster repeat loads and smoother navigation.
+
+## [2.0.0]
+### UX Update
+- Improved the PWA Support for the `Network Query Tool` website for desktop and mobile devices.
+
+## [1.9.0]
+### Security Update
+- Allow the `Network Query Tool` website to implement HTTP Strict Transport Security (HSTS) with a long duration deployed on the server.
+- Added support for TLS 1.3.
+  - Faster handshakes (1 round trip instead of 2)
+  - Stronger default ciphers
+  - Removal of legacy, insecure algorithms
+  - Better privacy (more of the handshake is encrypted)
+  - Lower latency for every HTTPS request
+
 ## [1.8.0]
 ### Bug Fixes
 - Allow the `Network Query Tool` website to pass HTML5 validation while reducing bandwidth usage and page load times.

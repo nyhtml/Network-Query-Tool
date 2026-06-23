@@ -32,6 +32,13 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [2.2.0]
+### UX Update
+- Configured the `Network Query Tool` website to provide additional options on HTTP Errors.
+  - Go Home
+  - Try Again
+  - Display a Request ID
+
 ## [2.1.0]
 ### Performance Improvements
 - Allow the `Network Query Tool` website to have long‑term browser caching support across desktop and mobile devices.

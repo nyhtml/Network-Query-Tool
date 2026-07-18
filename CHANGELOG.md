@@ -32,6 +32,17 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [2.2.2]
+### Bug Fixes
+- Allow the `Network Query Tool` website to display without a warning when hosted on the Windows platform.
+  - Convert the CSP header into a single line.
+
+## [2.2.1]
+### Performance Improvements
+- Allow the `Network Query Tool` website to perform port scanning on Windows.
+  -  returns immediately on non‑responsive ports.
+  - Prevents long execution delays.
+
 ## [2.2.0]
 ### UX Update
 - Configured the `Network Query Tool` website to provide additional options on HTTP Errors.

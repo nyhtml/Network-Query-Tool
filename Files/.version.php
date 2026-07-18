@@ -1,5 +1,5 @@
 <?php http_response_code(403);
-$NQT_VERSION = '2.2.2';
+$NQT_VERSION = '2.2.3';
 
 /**
  * Network Query Tool

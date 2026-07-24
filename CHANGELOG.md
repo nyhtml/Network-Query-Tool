@@ -32,6 +32,19 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [2.3.0]
+### Security Update
+- Allow the `Network Query Tool` website to implement a 16-byte nonce for the Content Security Policy (CSP).
+- Increased the bits to align with common modern security practices
+  - Change `$nonce = bin2hex(random_bytes(12));` to `$nonce = bin2hex(random_bytes(16));`
+
+## [2.2.3]
+### Security Update
+- Allow the `Network Query Tool` website to implement a bulletproof version of the Content Security Policy (CSP).
+- Improved CSP nonce.
+  - From `<script>` to `<script nonce="<?php echo $nonce; ?>">`
+  - From `<style>` to `<style nonce="<?php echo $nonce; ?>">`
+
 ## [2.2.2]
 ### Bug Fixes
 - Allow the `Network Query Tool` website to display without a warning when hosted on the Windows platform.

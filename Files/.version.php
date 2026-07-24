@@ -1,10 +1,13 @@
-<?php http_response_code(403);
-$NQT_VERSION = '2.21';
+<?php
+// www.nqt.tools
+http_response_code(200);
+$NQT_VERSION = '2.3.0';
 
-/**
- * Network Query Tool
- * Hardened headers, proxy-aware HTTPS, a11y, dark-mode, and UX niceties.
- * © 1990-2026 Sipylus LLC. All rights reserved.
+/**************************************************************************
+ * Network Query Tool                                                     *
+ * Hardened headers, proxy-aware HTTPS, a11y, dark-mode, and UX niceties. *
+ * © 1990-2026 Sipylus LLC. All rights reserved.                          *
+ **************************************************************************
 
     _____     _  ___   ___   ___    ____  _             _               _     _     ____   
    / ___ \   / |/ _ \ / _ \ / _ \  / ___|(_)_ __  _   _| |_   _ ___    | |   | |   / ___|  

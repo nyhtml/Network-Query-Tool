@@ -2,6 +2,7 @@
 // www.nqt.tools
 http_response_code(200);
 $NQT_VERSION = '2.3.0';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/';
 
 /**************************************************************************
  * Network Query Tool                                                     *
@@ -22,3 +23,10 @@ $NQT_VERSION = '2.3.0';
                        |___/                                                               
 
  **/
+
+// Security & privacy headers
+
+// Theming (Dark and Light Mode Friendly)
+
+// Check for Global Privacy Control (GPC) signal
+?>

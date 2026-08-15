@@ -15,4 +15,6 @@ Official Network Query Tool — available since 1990 at [ns1ns2.com](https://www
 
 ## 📄 Documentation
 - [Changelog](CHANGELOG.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 - [License](LICENSE.md)
+- [Security](SECURITY.md)

@@ -14,13 +14,29 @@
 - **Internet Access:** Required for DNS, WHOIS, and IP lookups.
 
 ## ⚡ Hardware Requirements
-- **Minimal:** 1 CPU core, 512 MB RAM, 200 MB disk space.  
-- **Recommended:** 2+ CPU cores, 2 GB RAM, SSD storage for smoother performance.
+- **Minimal:** Suitable for basic command‑line usage and lightweight queries
+  - 1 CPU core
+  - 512 MB RAM
+  - 200 MB disk space.
+
+- **Recommended:** Suitable for concurrent scans, web UI, and larger datasets
+  - 2+ CPU cores
+  - 2-4 GB RAM
+  - SSD storage for smooth performance.
+
+- **Optimal:** Ideal for heavy logging, large result sets, and multi-threaded operations.
+  - 4+ CPU cores
+  - 4 GB RAM
+  - SSD/NVMe storage for smoother performance.
 
 ## 🔒 Security Considerations
-- Run behind HTTPS (TLS certificate).  
-- Sandbox or rate‑limit queries to prevent abuse.  
-- Keep PHP and server packages updated regularly
+- Run behind HTTPS with a valid TLS certificate.
+- Rate-limit and restrict queries to help prevent abuse.
+- Keep PHP and server packages regularly updated.
+- Use a host-based firewall appropriate for your operating system.
+- Use intrusion-prevention tools such as Fail2Ban where supported.
+- Use a web application firewall (WAF), such as ModSecurity, where supported.
+- On Linux servers, consider additional security tools such as ConfigServer Security & Firewall (CSF).
 
 ## 🎯 Features
 The Network Query Tool provides several features that make it a handy tool for network diagnostics:

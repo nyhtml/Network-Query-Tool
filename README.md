@@ -15,4 +15,4 @@ Official Network Query Tool — available since 1990 at [ns1ns2.com](https://www
 
 ## 📄 Documentation
 - [Changelog](CHANGELOG.md)
-- [License](LICENSE)
+- [License](LICENSE.md)

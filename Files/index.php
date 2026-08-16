@@ -1,7 +1,7 @@
 <?php
 // www.nqt.tools
 http_response_code(200);
-$NQT_VERSION = '2.3.0';
+$NQT_VERSION = '2.4.0';
 include_once $_SERVER['DOCUMENT_ROOT'] . '/';
 
 /**************************************************************************

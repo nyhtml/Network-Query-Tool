@@ -20,7 +20,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 🔄 Compatibility Updates
 - Ensuring the tool works with new browsers, operating systems, or protocols (e.g., Chrome/Edge PWA support, TLS 1.3 compatibility).
-- Keeps the tool usable as environments evolve.
+- Keeping the tool usable as environments evolve.
 
 📚 Documentation Updates
 - Changes to README files, help guides, or inline tooltips.
@@ -32,10 +32,24 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+# [2.4.1]
+### UX Update
+- Improved XML Sitemap rendering and presentation for the `Network Query Tool` website on desktop and mobile devices.  
+  - Introduced NQT-themed sitemap styling with automatic light and dark mode support.
+  - Improved readability and responsiveness across desktop and mobile devices.
+  - Enhanced visual consistency with the Network Query Tool interface.
+
+## [2.4.0]
+### UX Update
+- Improved PWA Support for the `Network Query Tool` website on desktop and mobile devices.
+  - Enabled `Edge Side Panel` to support the side panel view in Microsoft Edge.
+  - Enabled `Shortcuts` to allow a user to launch directly to a specific part of the application.
+  - Enabled `Launch Handler` to specify that the app should be a single-instance app.
+
 ## [2.3.0]
 ### Security Update
 - Allow the `Network Query Tool` website to implement a 16-byte nonce for the Content Security Policy (CSP).
-- Increased the bits to align with common modern security practices
+- Increased the number of bits to align with common modern security practices
   - Change `$nonce = bin2hex(random_bytes(12));` to `$nonce = bin2hex(random_bytes(16));`
 
 ## [2.2.3]
@@ -53,7 +67,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [2.2.1]
 ### Performance Improvements
 - Allow the `Network Query Tool` website to perform port scanning on Windows.
-  -  returns immediately on non‑responsive ports.
+  - Returns immediately on non‑responsive ports.
   - Prevents long execution delays.
 
 ## [2.2.0]
@@ -71,7 +85,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [2.0.0]
 ### UX Update
-- Improved the PWA Support for the `Network Query Tool` website for desktop and mobile devices.
+- Improved PWA Support for the `Network Query Tool` website for desktop and mobile devices.
 
 ## [1.9.0]
 ### Security Update
@@ -95,12 +109,12 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [1.6.0]
 ### Performance Improvements
 - Allow the `Network Query Tool` website to reduce bandwidth usage and improve page load times.
-  - Implemented early gzip compression support, to reduce bandwidth usage and improve page load times across desktop and mobile devices.
+  - Implemented early gzip compression support to reduce bandwidth usage and improve page load times across desktop and mobile devices.
   - Optimized output buffering to ensure headers are sent efficiently, minimizing latency during DNS and WHOIS queries.
 
 ## [1.5.0]
 ### Security Update
-- Allowed the `Network Query Tool` website from being accessed by specific user-agents. 
+- Allowed the `Network Query Tool` website to be accessed by specific user-agents. 
 
 ## [1.4.0]
 ### UX Update
@@ -108,7 +122,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [1.3.0]
 ### UX Update
-- Improve the `Network Query Tool` responsiveness on mobile devices.
+- Improved the `Network Query Tool` responsiveness on mobile devices.
   - Links and tap targets are sufficiently large and touch-friendly
   - Page content fits device width
   - Text on the page is readable

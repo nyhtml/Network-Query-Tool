@@ -1,9 +1,4 @@
 <?php
-// www.nqt.tools
-http_response_code(200);
-$NQT_VERSION = '2.4.1';
-include_once $_SERVER['DOCUMENT_ROOT'] . '/';
-
 /**************************************************************************
  * Network Query Tool                                                     *
  * Hardened headers, proxy-aware HTTPS, a11y, dark-mode, and UX niceties. *
@@ -23,10 +18,26 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/';
                        |___/                                                               
 
  **/
+ http_response_code(200);
+$NQT_VERSION = '2.4.2';
 
-// Security & privacy headers
+// Global Privacy Control Signal Detector
+$gpc = ($_SERVER['HTTP_SEC_GPC'] ?? '') === '1';
 
-// Theming (Dark and Light Mode Friendly)
+// Global Privacy Control Settings
+$analyticsAllowed = true;       // do not edit; default = true
+$adsAllowed = true;             // do not edit; default = true
 
-// Check for Global Privacy Control (GPC) signal
-?>
+// Page Settings
+if ($gpc) {
+    $analyticsAllowed = false;  // set true or false; default = false
+    $adsAllowed = false;        // set true or false; default = false
+}
+
+// Advertisements and Analytics Settings
+if ($analyticsAllowed) {
+    //Loading Analytics...
+}
+if ($adsAllowed) {
+    //Loading Affiliates...
+}

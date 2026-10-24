@@ -32,6 +32,12 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+# [2.4.2]
+### Bug Fixes
+- Allow the `Network Query Tool` website to display without a certificate warning.
+  - Remove the forced redirect from individual pages.
+    - This can be handled by the .htaccess file and affect globally.
+
 # [2.4.1]
 ### UX Update
 - Improved XML Sitemap rendering and presentation for the `Network Query Tool` website on desktop and mobile devices.  

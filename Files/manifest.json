@@ -1,0 +1,285 @@
+{
+  "name": "Network Query Tool",
+  "short_name": "Network Query Tool",
+  "description": "Professional online diagnostic tools to check various connections and network health.",
+  "id": "com.sipylus.nqt",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fafafa",
+  "theme_color": "#0ea5e9",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "android",
+      "url": "https://play.google.com/store/apps/details?id=com.sipylus.nqt",
+      "id": "com.sipylus.nqt"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate"
+  },
+
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+
+
+"screenshots": [
+  {
+    "src": "/global/imgs/pwa-desktop.jpeg",
+    "sizes": "3840x2160",
+    "type": "image/jpeg",
+    "form_factor": "wide",
+    "label": "Desktop View"
+  },
+  {
+    "src": "/global/imgs/pwa-mobile.jpeg",
+    "sizes": "786x1704",
+    "type": "image/jpeg",
+    "form_factor": "narrow",
+    "label": "Mobile View"
+  }
+],
+
+  "categories": [
+    "developer",
+    "network",
+    "productivity",
+    "security",
+    "utilities"
+  ],
+
+  "icons": [
+    {
+      "src": "/global/imgs/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/global/imgs/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/global/imgs/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/global/imgs/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/global/imgs/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/global/imgs/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "My IP Address",
+      "short_name": "My IP",
+      "description": "View your public IP address and network information",
+      "url": "/tool/myip/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "DNS Lookup",
+      "short_name": "DNS",
+      "description": "Perform DNS lookups and inspect DNS records",
+      "url": "/tool/dns/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "WHOIS Lookup",
+      "short_name": "WHOIS",
+      "description": "Look up domain registration and WHOIS information",
+      "url": "/tool/whois/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "RDAP Lookup",
+      "short_name": "RDAP",
+      "description": "Look up domain and IP registration data using RDAP",
+      "url": "/tool/rdap/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Reverse DNS",
+      "short_name": "Reverse DNS",
+      "description": "Perform reverse DNS lookups for IP addresses",
+      "url": "/tool/rdns/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Forward DNS",
+      "short_name": "Forward DNS",
+      "description": "Perform forward DNS lookups for hostnames and domains",
+      "url": "/tool/fdns/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Host Finder",
+      "short_name": "Host Finder",
+      "description": "Discover hosts and subdomains associated with a domain",
+      "url": "/tool/hostfinder/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ping",
+      "short_name": "Ping",
+      "description": "Test network connectivity and response times",
+      "url": "/tool/ping/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Traceroute",
+      "short_name": "Traceroute",
+      "description": "Trace the network path to a destination",
+      "url": "/tool/traceroute/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Port Scanner",
+      "short_name": "Port Scan",
+      "description": "Check network ports and service availability",
+      "url": "/tool/portscan/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "RBL Lookup",
+      "short_name": "RBL",
+      "description": "Check IP addresses against real-time blocklists",
+      "url": "/tool/rbl/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "IP Lookup",
+      "short_name": "IP Lookup",
+      "description": "Look up IP address information and network details",
+      "url": "/tool/iplookup/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Email Security Checker",
+      "short_name": "Email Security",
+      "description": "Check email-related DNS and security configuration",
+      "url": "/tool/checker/email/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Security Checker",
+      "short_name": "Security",
+      "description": "Check network and domain security configuration",
+      "url": "/tool/checker/security/",
+      "icons": [
+        {
+          "src": "/global/imgs/favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+
+  "display_override": [
+    "window-controls-overlay",
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone"
+  ]
+
+}

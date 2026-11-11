@@ -1,5 +1,6 @@
 ## 🖥️ Server Requirements
-- **Operating System:** Linux (recommended: AlmaLinux, Ubuntu, CentOS). Windows Server or macOS is also supported.
+- **Operating System:** Linux (recommended: AlmaLinux, Ubuntu, CentOS).
+  - Windows Server or macOS is also supported.
 - **Web Server:** Apache or Nginx with PHP enabled.
 - **PHP Version:** 7.4 or newer (PHP 8.x recommended).
 - **Required Extensions:**
